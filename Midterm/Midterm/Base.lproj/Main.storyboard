@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Midterm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqL-Ca-oQR">
+                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="333.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="ChooseSector:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z24-e6-XAV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsw-70-iet">
+                                <rect key="frame" x="187.5" y="-0.5" width="188" height="334.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="ChooseSector:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BES-aJ-X7U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KE9-eR-PWQ">
+                                <rect key="frame" x="-0.5" y="333.5" width="188.5" height="334"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="ChooseSector:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8I6-vs-Ulo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9E-to-GZM">
+                                <rect key="frame" x="187.5" y="334" width="188" height="333.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="ChooseSector:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fnU-J8-Nwi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yqL-Ca-oQR" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="1/2" id="1qL-7q-fKk"/>
+                            <constraint firstItem="yqL-Ca-oQR" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="1/2" id="2cM-1M-FDp"/>
+                            <constraint firstItem="yqL-Ca-oQR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2kf-bF-DxG"/>
+                            <constraint firstItem="nsw-70-iet" firstAttribute="centerY" secondItem="yqL-Ca-oQR" secondAttribute="centerY" id="5Dw-OL-VbM"/>
+                            <constraint firstItem="h9E-to-GZM" firstAttribute="top" secondItem="nsw-70-iet" secondAttribute="bottom" id="Ghv-2f-ob3"/>
+                            <constraint firstItem="nsw-70-iet" firstAttribute="leading" secondItem="yqL-Ca-oQR" secondAttribute="trailing" id="Hat-se-OeC"/>
+                            <constraint firstItem="h9E-to-GZM" firstAttribute="centerX" secondItem="nsw-70-iet" secondAttribute="centerX" id="Jz3-79-nyX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="yqL-Ca-oQR" secondAttribute="leading" id="Nzi-hu-xwI"/>
+                            <constraint firstItem="h9E-to-GZM" firstAttribute="width" secondItem="nsw-70-iet" secondAttribute="width" id="Ppk-Xw-GET"/>
+                            <constraint firstItem="KE9-eR-PWQ" firstAttribute="top" secondItem="yqL-Ca-oQR" secondAttribute="bottom" id="Vfl-9g-1wn"/>
+                            <constraint firstItem="nsw-70-iet" firstAttribute="height" secondItem="yqL-Ca-oQR" secondAttribute="height" multiplier="1.0015" id="WRd-iU-3l0"/>
+                            <constraint firstItem="KE9-eR-PWQ" firstAttribute="width" secondItem="yqL-Ca-oQR" secondAttribute="width" multiplier="1.00267" id="fPb-g9-ksw"/>
+                            <constraint firstItem="KE9-eR-PWQ" firstAttribute="height" secondItem="yqL-Ca-oQR" secondAttribute="height" multiplier="1.0015" id="gsB-AS-28c"/>
+                            <constraint firstItem="nsw-70-iet" firstAttribute="width" secondItem="yqL-Ca-oQR" secondAttribute="width" multiplier="1.00267" id="uZI-o6-SQb"/>
+                            <constraint firstItem="KE9-eR-PWQ" firstAttribute="centerX" secondItem="yqL-Ca-oQR" secondAttribute="centerX" id="wgK-PO-WvH"/>
+                            <constraint firstItem="h9E-to-GZM" firstAttribute="height" secondItem="nsw-70-iet" secondAttribute="height" multiplier="0.998505" id="xXg-mq-A9O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="116.49175412293854"/>
+        </scene>
+        <!--Select Color View Controller-->
+        <scene sceneID="Khd-EA-GrI">
+            <objects>
+                <viewController storyboardIdentifier="select" id="8c6-pu-4Ng" customClass="SelectColorViewController" customModule="Midterm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WpE-qu-rF1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0MT-TN-5m0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="328"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="RED">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorSelected:" destination="8c6-pu-4Ng" eventType="touchUpInside" id="nSO-Jb-4Cz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OL5-4t-bid">
+                                <rect key="frame" x="0.0" y="328" width="375" height="339"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="BLUE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorSelected:" destination="8c6-pu-4Ng" eventType="touchUpInside" id="3J0-6w-P4T"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="OL5-4t-bid" firstAttribute="height" secondItem="0MT-TN-5m0" secondAttribute="height" multiplier="1.03354" id="0q8-r0-NOm"/>
+                            <constraint firstItem="OL5-4t-bid" firstAttribute="width" secondItem="0MT-TN-5m0" secondAttribute="width" id="8B1-dP-k1E"/>
+                            <constraint firstItem="0MT-TN-5m0" firstAttribute="centerX" secondItem="rLl-Ck-cai" secondAttribute="centerX" id="Akp-k5-R93"/>
+                            <constraint firstItem="0MT-TN-5m0" firstAttribute="height" secondItem="rLl-Ck-cai" secondAttribute="height" multiplier="0.491754" id="B9X-hQ-5gQ"/>
+                            <constraint firstItem="0MT-TN-5m0" firstAttribute="width" secondItem="rLl-Ck-cai" secondAttribute="width" id="MHw-Qc-LiG"/>
+                            <constraint firstItem="0MT-TN-5m0" firstAttribute="leading" secondItem="rLl-Ck-cai" secondAttribute="leading" id="PTp-qh-oou"/>
+                            <constraint firstItem="OL5-4t-bid" firstAttribute="centerX" secondItem="0MT-TN-5m0" secondAttribute="centerX" id="ZfT-UW-BQU"/>
+                            <constraint firstItem="rLl-Ck-cai" firstAttribute="trailing" secondItem="0MT-TN-5m0" secondAttribute="trailing" id="ccs-CN-8yw"/>
+                            <constraint firstItem="0MT-TN-5m0" firstAttribute="top" secondItem="rLl-Ck-cai" secondAttribute="top" id="fDv-pr-euy"/>
+                            <constraint firstItem="OL5-4t-bid" firstAttribute="top" secondItem="0MT-TN-5m0" secondAttribute="bottom" id="gJz-S5-vhO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rLl-Ck-cai"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfI-ea-Azg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1007.2" y="116.49175412293854"/>
+        </scene>
+    </scenes>
+</document>
