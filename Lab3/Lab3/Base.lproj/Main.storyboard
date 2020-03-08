@@ -184,13 +184,21 @@
                         <viewLayoutGuide key="safeArea" id="S3s-ct-yHz"/>
                     </view>
                     <navigationItem key="navigationItem" id="A0V-yt-oNM">
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="pS5-YJ-wdc">
-                            <connections>
-                                <action selector="_save:" destination="0B4-zs-mJw" id="dSS-UI-yPh"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Save" id="pS5-YJ-wdc">
+                                <connections>
+                                    <action selector="_save:" destination="0B4-zs-mJw" id="dSS-UI-yPh"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Delete" id="Lvo-Ir-v1B" userLabel="Delete">
+                                <connections>
+                                    <action selector="Delete:" destination="0B4-zs-mJw" id="9SQ-zS-N2H"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="DeleteBut" destination="Lvo-Ir-v1B" id="QWi-Ro-Hwe"/>
                         <outlet property="Height" destination="IRr-41-woF" id="R7f-cA-RFc"/>
                         <outlet property="Width" destination="NQr-tg-of6" id="QXv-d5-AN1"/>
                         <outlet property="Xvalue" destination="H3L-A9-dsP" id="cwB-8u-FKs"/>
