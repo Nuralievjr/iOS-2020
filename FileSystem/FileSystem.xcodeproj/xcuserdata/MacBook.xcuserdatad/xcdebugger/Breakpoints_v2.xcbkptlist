@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BDEE37F3-BBD8-4B3B-831C-C44B00A9AC02"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE3D3C2D-DF90-4D3E-9536-FC4E4126BF3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileSystem/SearchMusicTableViewTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DE3D3C2D-DF90-4D3E-9536-FC4E4126BF3B - 6057872cf785c40e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FileSystem.SearchMusicTableViewTableViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "FileSystem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Desktop/FileSystem/FileSystem/SearchMusicTableViewTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "633">
+               </Location>
+               <Location
+                  uuid = "DE3D3C2D-DF90-4D3E-9536-FC4E4126BF3B - e5b9545936b7e8a1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;FileSystem.MusicService.MusicSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FileSystem.SearchMusicTableViewTableViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "FileSystem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Desktop/FileSystem/FileSystem/SearchMusicTableViewTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "225">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E0DF85F-A2E0-46C4-BFE5-276738EBF5D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FileSystem/SearchMusicTableViewTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "SearchMusicTableViewTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4E0DF85F-A2E0-46C4-BFE5-276738EBF5D8 - 6cb980b293b05520"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;FileSystem.MusicService.MusicSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FileSystem.SearchMusicTableViewTableViewController.textChange(__C.UITextField) -&gt; ()"
+                  moduleName = "FileSystem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Desktop/FileSystem/FileSystem/SearchMusicTableViewTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1111">
+               </Location>
+               <Location
+                  uuid = "4E0DF85F-A2E0-46C4-BFE5-276738EBF5D8 - 6cb980b293b05520"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;FileSystem.MusicService.MusicSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FileSystem.SearchMusicTableViewTableViewController.textChange(__C.UITextField) -&gt; ()"
+                  moduleName = "FileSystem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Desktop/FileSystem/FileSystem/SearchMusicTableViewTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
